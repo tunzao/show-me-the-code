@@ -23,7 +23,7 @@ def generatecodes(num):
 
 def codegenerator(size=6, chars=string.ascii_uppercase + string.digits):
     """
-    generate code of size size with chars in chars
+    generate code of size <code>size</code> with chars in <code>chars</code>
     """
     return ''.join(random.choice(chars) for i in range(size) )
 
